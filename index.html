@@ -15,56 +15,63 @@
 </head>
 
 <body>
-
-  <div class="jumbotron">
-    <div class="header-word">
-      <h1>Ping-Pong</h1>
-    </div>
-  </div>
-
   <div class="container-fluid">
+    <div class="jumbotron">
+      <div class="header-word">
+          <h1>Ping-Pong</h1>
+          <!-- <img src="image/paddle.jpg"> -->
+        </div>
+      </div>
+    </div>
+
+
+  <div class="container-fluid main">
     <div class="row">
-      <div class="col-md-3 main ">
+      <div class="col-md-3 ">
         <h2 id="ppong"> About Ping Pong</h2><br/>
         <span id="ppong2"> Created by: </span><br/>Sarah Marion<br/>
         <span id="about">GitHub: Username/URL</span> <br/>Sarah-Marion<br/>
         <span id="about"> Level 2 </span><br/>test for : </span><br/>
       </div>
+    </div>
+  </div>
 
-      <div class="row pingpong-row">
-                <div class="col-md-6 pp-rules">
-                  <h3><b>Let's Play</b></h3>
-                  <p><b>Rules:</b></p>
-                  <p>Ping pong will count up to your number from
-                    <span style="color: red;">#1</span> with the following exceptions:</p>
-                  <ol>
-                    <li>Numbers divisible by 3 become
-                      <span style="color: red;">ping</span>
-                    </li>
-                    <li>Numbers divisible by 5 become
-                      <span style="color: red;">pong</span>
-                    </li>
-                    <li>Numbers divisible by 15 become
-                      <span style="color: red;">pingpong</span>
-                    </li>
-                  </ol>
+  <div class="row content">
+    <div class="col-md-6 pp-rules">
+      <h3><b>Let's Play</b></h3>
+      <p><b>Rules:</b></p>
+      <p>Ping pong will count up to your number from
+        <span style="color: red;">1</span> with the following exceptions:</p>
+      <ol>
+        <li>Numbers divisible by 3 become
+          <span style="color: red;">ping</span>
+        </li>
+        <li>Numbers divisible by 5 become
+          <span style="color: red;">pong</span>
+        </li>
+        <li>Numbers divisible by 15 become
+          <span style="color: red;">pingpong</span>
+        </li>
+      </ol>
 
-                  <div class="col-md-6 offset">
+      <div class="col-md-6 offset">
         <form class="form-inline ping-pong">
           <div class="form-group">
             <label for="user-input">Enter a Number</label>
             <input type="number" min=1 required="true" class="form-control" id="user-input">
           </div>
-          <button type="submit" class="btn btn-default" id="submit">Play</button>
+          <button type="submit" class="btn btn-default" id="submit">Try It Out!</button>
         </form>
       </div>
-  <div id="result">
-    <ul id="result-list">
-    </ul>
+      <div id="result">
+        <ul id="result-list">
+        </ul>
+      </div>
+    </div>
   </div>
 
 
 
+</body>
 
-  </body>
 </html>
