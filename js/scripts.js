@@ -16,9 +16,13 @@ var condition = function(number) {
 //user input
 
 $(document).ready(function() {
-  var userInput = parseInt(prompt("Enter number of tries:  "))
-
+  //var userInput = parseInt(prompt("Enter number of tries:  "))
+$(".ping-pong").submit(function(event){
+  event.preventDefault();
+  var userInput = $("#user-input").val();
   for (index = 1; index <= userInput; index++) {
     theResult = condition(index);
-    $("ul").append("<li>"+theResult+"</li>");
-  }});
+    $("ul").append("<li>" + theResult + "</li>");
+  }
+})
+});
