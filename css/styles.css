@@ -7,7 +7,9 @@
 .header-word{
   background-size: 30px,20px;
 }
-
+.header-word:hover {
+  color: #D6B831;
+}
 .content{
   padding: 50px;
   background-color: lightgrey;
@@ -17,7 +19,10 @@
   font-family: monospace;
   font-size: 1.5em;
 }
-
+.btn-default:hover {
+  background: #D6B831;
+  font-family: monospace;
+}
 p {
   font-size: .8em;
 }
