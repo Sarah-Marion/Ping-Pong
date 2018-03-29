@@ -20,7 +20,5 @@ $(document).ready(function() {
 
   for (index = 1; index <= userInput; index++) {
     theResult = condition(index);
-    $("ul").append(+theResult+");
-  }
-
-});
+    $("ul").append("<li>"+theResult+"</li>");
+  }});
