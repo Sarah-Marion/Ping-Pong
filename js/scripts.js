@@ -17,12 +17,17 @@ var condition = function(number) {
 
 $(document).ready(function() {
   //var userInput = parseInt(prompt("Enter number of tries:  "))
-$(".ping-pong").submit(function(event){
-  event.preventDefault();
-  var userInput = $("#user-input").val();
-  for (index = 1; index <= userInput; index++) {
-    theResult = condition(index);
-    $("ul").append("<li>" + theResult + "</li>");
-  }
-})
+  $(".ping-pong").submit(function(event) {
+    event.preventDefault();
+    $("ul").empty();
+    var userInput = $("#user-input").val();
+
+    for (index = 1; index <= userInput; index++) {
+      theResult = condition(index);
+      $("ul").append("<li>" + theResult + "</li>");
+    }
+  });
+  // $("#submit").click(function(){
+  //   ()
+  // });
 });
