@@ -2,7 +2,7 @@
 var answer = "";
 var theResult = [];
 
-var condition = function(number) {
+var condition = function (number) {
   if (number % 15 === 0) {
     answer = "PingPong";
   } else if (number % 5 === 0) {
@@ -15,9 +15,9 @@ var condition = function(number) {
 
 //user input
 
-$(document).ready(function() {
+$(document).ready(function () {
   //var userInput = parseInt(prompt("Enter number of tries:  "))
-  $(".ping-pong").submit(function(event) {
+  $(".ping-pong").submit(function (event) {
     event.preventDefault();
     $("ul").empty();
     var userInput = $("#user-input").val();
@@ -30,4 +30,14 @@ $(document).ready(function() {
   // $("#submit").click(function(){
   //   ()
   // });
+  var effectsJumbo = function () {
+    if ($("#top-heading").offset().top > 40) {
+      $("#top-heading").addClass("jumbotron-transparent");
+    } else {
+      $("#top-heading").removeClass("jumbotron-transparent");
+    }
+  }
+  effectsJumbo();
+  // Make the jumbotron transparent when scrolling
+  $(window).scroll(effectsJumbo);
 });
