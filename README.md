@@ -2,7 +2,7 @@
 #### Replaces certain divisible numbers with the words Ping, Pong, Ping Pong, Fri 30th,March 2018
 #### By **Sarah Marion**
 ## Description
-* This website lets a user input a whole number. It will return all the numbers up to the user's selected number, but with numbers divisible by 3 replaced withe the word Ping, 5 replaced with Pong and 15 replaced with Ping Pong. * Live Site:
+* This website lets a user input a whole number. It will return all the numbers up to the user's selected number, but with numbers divisible by 3 replaced withe the word Ping, 5 replaced with Pong and 15 replaced with Ping Pong. * Live Site: https://sarah-marion.github.io/Ping-Pong
 ## Setup/Installation Requirements
 * Go to GitHub
 * clone or download the Pingpong Repository onto desktop.
