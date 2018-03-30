@@ -32,10 +32,9 @@
 }
 .main1{
   text-align: center;
-  margin-top: 2%;
+  padding-top: 0.5em;
   height: 40vh;
   background-color: #D6B831;
-  padding-top: 1%
 }
 .main1{
   float: left;
@@ -58,6 +57,17 @@
 }
 p {
   font-size: 1em;
+}
+.col-md-6{
+  margin: 0;
+}
+.col-md-5{
+  text-align: center;
+}
+.col-md-5 img{
+  width: 70%;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 #result-list {
   background-color: #D6B831;
